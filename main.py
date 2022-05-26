@@ -1,6 +1,3 @@
-from operator import index
-
-
 def abrir(caminho):
     arquivo = open(caminho, 'r', encoding='utf-8')
     return arquivo
